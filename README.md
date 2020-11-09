@@ -28,21 +28,11 @@ v4.2.2
 * mongo
 * git
 
-## Setup on dev env
+## Setup
 Do following steps to setup project
 1) install dependencies:
 > npm install
 2) create .env file from .env.example file and update setting
-4) run application using following command 
-> npm run start
-
-## Setup on prod env
-Do following steps to setup project
-1) install dependencies:
-> npm install
-2) create .env file from .env.example file and update setting
-3) seed database
- > npm run seed  
 4) run application using following command 
 > npm run start
 
