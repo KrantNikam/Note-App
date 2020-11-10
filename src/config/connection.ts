@@ -8,6 +8,7 @@ const connection = mongoose
   .connect(connectionString, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useCreateIndex: true
   })
   .catch((e) => {
     throw new Error(`Error occurred while connecting database ${e}`);
