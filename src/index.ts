@@ -6,7 +6,6 @@ import swagger from './swagger/controllers/swagger';
 import auth from './routes/auth';
 import notes from './routes/notes';
 
-
 const app = express();
 dotenv.config();
 const port = process.env.PORT || 3001;
@@ -41,3 +40,5 @@ app.listen(port, err => {
   }
   return console.log(`Server is listening on ${port}`);
 });
+
+export default app;
